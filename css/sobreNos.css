@@ -1,0 +1,27 @@
+.sobreNos {
+  max-height: 100vh;
+  background-color: var(--branco-bk);
+}
+.conteiner__sobreNos {
+  display: flex;
+  flex-direction: row;
+  padding: 3em;
+}
+.sobreNos__titulo {
+  align-items: center;
+  text-align: center;
+  color: var(--marrom);
+  padding: 1em;
+  font-family: var(--fonte-Oswald);
+  font-size: 2em;
+  font-weight: bold;
+}
+.sobreNos__texto {
+  font-size: 1.9em;
+  font-family: var(--font-inter);
+  font-weight: 300;
+  padding: 2em;
+  line-height: 42px;
+ 
+  color: var(     --texto-dark);
+}

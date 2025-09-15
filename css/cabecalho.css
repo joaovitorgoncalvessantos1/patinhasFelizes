@@ -1,0 +1,28 @@
+.cabecalho{
+    background-color: var(--laranja);
+    padding: 1em;
+}
+.navegacao{
+    display: flex;
+    margin: 0 10%;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.navegacao__link{
+    display: flex;
+    gap: 1.3em;
+}
+.navegacao__item{
+    font-size: 1.2em;
+    color: var(--branco);
+    text-decoration: none;
+    padding: 10px;
+    font-family: var(--font-inter);
+    font-weight: bold;
+}
+.navegacao__item:hover{
+    background-color: var(--marrom);
+    border-radius: 1em;
+    padding:  10px;
+}

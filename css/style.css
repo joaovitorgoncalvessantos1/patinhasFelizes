@@ -1,0 +1,23 @@
+
+@import url('cabecalho.css');
+@import url('banner.css');
+@import url('sobreNos.css');
+@import url('produtos.css');
+@import url('rodape.css');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root{
+    --laranja:#A86843;
+    --laranja-botao:#FF6900;
+    --branco:#D0CFCF;
+    --marrom:#3A1E00;
+    --branco-bk:#dbd2ca;
+      --texto-dark:#2b2a2a;
+
+    --fonte-Oswald:"Oswald", sans-serif;
+    --font-inter:"Inter", sans-serif;
+}
+
