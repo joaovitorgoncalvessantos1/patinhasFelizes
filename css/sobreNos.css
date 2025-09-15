@@ -22,6 +22,51 @@
   font-weight: 300;
   padding: 2em;
   line-height: 42px;
+  
  
   color: var(     --texto-dark);
 }
+.img{
+  justify-content: center;
+  align-self: center;
+}
+@media (max-width: 1220px){
+.conteiner__img{
+  display: none;
+  font-size: 2em;
+}
+}
+@media (max-width: 680px){
+    .sobreNos__texto {
+  font-size: 1.7em;
+  padding: 1em;
+    line-height: 39px;
+  }
+}
+@media (max-width: 575px){
+  .conteiner__sobreNos{
+    padding: 2em;
+  }
+  .sobreNos__texto {
+  font-size: 1em ;
+    line-height: 37px; 
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 380px){
+  .conteiner__sobreNos{
+    padding: 1em;
+  }
+  .sobreNos__titulo{
+    padding: .3em 0 0 0;
+    
+  }
+    .sobreNos__texto {
+  font-size: .7em;
+    line-height: 30px;
+    padding: .7em;
+
+  }
+}
+

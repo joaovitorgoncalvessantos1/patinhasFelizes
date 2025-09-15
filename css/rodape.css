@@ -11,3 +11,27 @@
   font-size: 2em;
   font-weight: bold;
 }
+@media (max-width: 680px) {
+    .rodape p{
+        font-size: 1.7em;
+    }
+
+}
+@media (max-width: 560px) {
+    .rodape p{
+        font-size: 1.3em;
+    }
+
+}
+@media (max-width: 430px) {
+    .rodape p{
+        font-size: 1em;
+    }
+
+}
+@media (max-width: 320px) {
+    .rodape p{
+        font-size: .9em;
+    }
+
+}
